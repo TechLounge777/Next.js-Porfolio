@@ -10,7 +10,7 @@ const Header = () => {
         <LogoWrapper>
           <StyledLink href="/">
             <Image
-              src="/public/logoipsum.svg"
+              src="/logoipsum.svg"
               width="132px"
               height="35px"
               alt="logo"
