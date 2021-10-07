@@ -8,10 +8,12 @@ export const HeaderWrapper = styled.div`
 
 export const LogoWrapper = styled.div`
   display: flex;
+  justify-content: flex-start;
 `;
 
 export const Nav = styled.div`
   display: flex;
+  justify-content: flex-end;
 `;
 
 export const StyledLink = styled.a`

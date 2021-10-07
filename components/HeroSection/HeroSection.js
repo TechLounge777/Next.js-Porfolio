@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import {
-  LeftSection,
   HeroSectionWrapper,
+  LeftSection,
+  HeroTitle,
+  HeroDescription,
+  HeroCtaButton,
   RightSection,
   ImageWrapper,
   StyledImage,
@@ -12,13 +15,13 @@ const HeroSection = () => {
   return (
     <HeroSectionWrapper>
       <LeftSection>
-        <h1> Hi, I am John, Creative Technologist</h1>
-        <p>
+        <HeroTitle> Hi, I am John, Creative Technologist</HeroTitle>
+        <HeroDescription>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
-        </p>
-        <button>Download Resume</button>
+        </HeroDescription>
+        <HeroCtaButton>Download Resume</HeroCtaButton>
       </LeftSection>
       <RightSection>
         <ImageWrapper>

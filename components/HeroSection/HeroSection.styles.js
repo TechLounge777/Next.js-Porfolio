@@ -4,15 +4,47 @@ export const HeroSectionWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 `;
 export const LeftSection = styled.div`
   width: 50%;
+`;
+
+export const HeroTitle = styled.div`
+  max-width: 506px;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 40px;
+`;
+
+export const HeroDescription = styled.div`
+  max-width: 497px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  margin-bottom: 38px;
+`;
+
+export const HeroCtaButton = styled.div`
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 208px;
+  padding: 9px 21px 17px 20px;
+  font-size: 20px;
+  line-height: 29px;
+  background: #ff6464;
+  color: #fff;
+  border-radius: 2px;
 `;
 
 export const RightSection = styled.div`
   width: 50%;
   display: flex;
   justify-content: center;
+  padding-left: 106px;
 `;
 
 export const ImageWrapper = styled.div`
@@ -27,5 +59,5 @@ export const ImageWrapper = styled.div`
 export const StyledImage = styled.img`
   display: flex;
   margin-right: -5px;
-  margin-top: -13px; ;
+  margin-top: -13px;
 `;
