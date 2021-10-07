@@ -8,7 +8,7 @@ export const HeroSectionWrapper = styled.div`
   padding-right: 148px;
 `;
 export const LeftSection = styled.div`
-  width: 40%;
+  width: 60%;
 `;
 
 export const HeroTitle = styled.div`
@@ -42,9 +42,9 @@ export const HeroCtaButton = styled.div`
 `;
 
 export const RightSection = styled.div`
-  width: 25%;
+  width: 20%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 `;
 
 export const ImageWrapper = styled.div`

@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 148px;
   padding-right: 148px;
-  margin-bottom: 140px;
+  padding-bottom: 210px; ;
 `;
 
 export const LogoWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
+  margin-left: 140px;
 `;
 
 export const Nav = styled.div`
