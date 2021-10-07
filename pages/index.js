@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import HeroSection from "../components/HeroSection/HeroSection";
+import RecentPostsSection from "../components/RecentPostsSection/RecentPostsSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <HeroSection />
+        <RecentPostsSection />
       </main>
     </div>
   );

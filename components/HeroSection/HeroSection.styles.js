@@ -38,6 +38,7 @@ export const HeroCtaButton = styled.div`
   background: #ff6464;
   color: #fff;
   border-radius: 2px;
+  margin-bottom: 71px;
 `;
 
 export const RightSection = styled.div`
