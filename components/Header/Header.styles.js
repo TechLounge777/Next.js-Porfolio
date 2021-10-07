@@ -2,8 +2,11 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 148px;
+  padding-right: 148px;
+  margin-bottom: 140px;
 `;
 
 export const LogoWrapper = styled.div`

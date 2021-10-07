@@ -7,8 +7,7 @@ import {
   ViewAllLink,
   LeftPost,
   PostTitle,
-  PostDate,
-  PostInfo,
+  PostData,
   PostContent,
   RightPost,
 } from "./RecentPostsSection.styles";
@@ -23,8 +22,7 @@ const RecentPostsSection = () => {
         </RecentPostsHeaderWrapper>
         <LeftPost>
           <PostTitle>Making a design system from scratch</PostTitle>
-          <PostDate>12 Feb 2020 | </PostDate>
-          <PostInfo>Design, Pattern</PostInfo>
+          <PostData>12 Feb 2020 | Design, Pattern</PostData>
           <PostContent>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -34,8 +32,7 @@ const RecentPostsSection = () => {
 
         <RightPost>
           <PostTitle>Making a design system from scratch</PostTitle>
-          <PostDate>12 Feb 2020 | </PostDate>
-          <PostInfo>Figma, Icon Design</PostInfo>
+          <PostData>12 Feb 2020 | Figma, Icon Design</PostData>
           <PostContent>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation

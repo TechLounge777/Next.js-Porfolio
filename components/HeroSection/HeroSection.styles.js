@@ -4,11 +4,11 @@ export const HeroSectionWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 148px;
+  padding-right: 148px;
 `;
 export const LeftSection = styled.div`
-  width: 50%;
+  width: 40%;
 `;
 
 export const HeroTitle = styled.div`
@@ -42,17 +42,16 @@ export const HeroCtaButton = styled.div`
 `;
 
 export const RightSection = styled.div`
-  width: 50%;
+  width: 25%;
   display: flex;
-  justify-content: center;
-  padding-left: 106px;
+  justify-content: flex-start;
 `;
 
 export const ImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   background: #edf7fa;
-  width: 243px;
+  max-width: 243px;
   height: 243px;
   border-radius: 50%;
 `;
