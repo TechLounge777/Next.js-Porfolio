@@ -7,7 +7,7 @@ export const RecentPostsSectionWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 148px;
+  // padding: 148px;
   background: #edf7fa;
   width: 100vw;
 `;
@@ -16,20 +16,17 @@ export const RecentPostsHeaderWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
-  margin-top: 7px;
+  width: 80%;
 `;
 
 export const RecentPostsSectionTitle = styled.h1`
   display: flex;
-
   color: #21243d;
   font-size: 22px;
   line-height: 60px;
 `;
 export const ViewAllLink = styled.a`
   display: flex;
-
   font-size: 16px;
   line-height: 23px;
   color: #00a8cc;
@@ -48,7 +45,8 @@ export const PostTitle = styled.h1`
   color: #21243d;
   font-size: 26px;
   line-height: 38px;
-  margin-bottom: 17px;
+  margin-bottom: 2px;
+  margin-top: 7px;
 `;
 
 export const PostData = styled.h2`

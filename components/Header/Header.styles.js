@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   padding-left: 148px;
   padding-right: 148px;
-  padding-bottom: 210px; ;
+  margin-bottom: 595px; //
 `;
 
 export const LogoWrapper = styled.div`
@@ -28,7 +28,8 @@ export const StyledLink = styled.a`
   font-size: 20px;
 
   &:hover {
-    color: aqua;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
   }
 `;

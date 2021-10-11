@@ -6,9 +6,12 @@ export const HeroSectionWrapper = styled.div`
   align-items: center;
   padding-left: 148px;
   padding-right: 148px;
+  margin-top: 210px; //
 `;
 export const LeftSection = styled.div`
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 `;
 
 export const HeroTitle = styled.div`
@@ -39,10 +42,15 @@ export const HeroCtaButton = styled.div`
   color: #fff;
   border-radius: 2px;
   margin-bottom: 71px;
+  &:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
 `;
 
 export const RightSection = styled.div`
-  width: 20%;
+  width: 25%;
   display: flex;
   justify-content: center;
 `;

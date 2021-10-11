@@ -5,7 +5,8 @@ export const FooterWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 182px;
+  margin-top: 482px;
+  width: 100%;
 `;
 
 export const SocialMediaWrapper = styled.div`
@@ -17,6 +18,11 @@ export const SocialMediaWrapper = styled.div`
   margin-top: 51px;
   margin-bottom: 33px;
   color: #21243d;
+  li:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
 `;
 
 export const Copyright = styled.h2`
