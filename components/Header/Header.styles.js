@@ -7,7 +7,6 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   padding-left: 148px;
   padding-right: 148px;
-  margin-bottom: 595px; //
 `;
 
 export const LogoWrapper = styled.div`

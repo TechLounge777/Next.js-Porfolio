@@ -6,7 +6,6 @@ export const HeroSectionWrapper = styled.div`
   align-items: center;
   padding-left: 148px;
   padding-right: 148px;
-  margin-top: 210px; //
 `;
 export const LeftSection = styled.div`
   display: flex;

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import BlogPage from "../components/SubPages/BlogPage";
 
 <Head>
   <title>Next.js Portfolio | Blog</title>
@@ -8,7 +9,11 @@ import Head from "next/head";
 </Head>;
 
 const blog = () => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <BlogPage />;
+    </div>
+  );
 };
 
 export default blog;
