@@ -17,6 +17,8 @@ export const BlogHeader = styled.h1`
   font-size: 44px;
   line-height: 60px;
   font-weight: 700;
+  margin-top: 106px;
+  margin-bottom: 55px;
 `;
 export const BlogPost = styled.div``;
 export const PostTitle = styled.h2`
@@ -39,6 +41,14 @@ export const PostDate = styled.h3`
   margin-right: 20px;
 `;
 
+export const Break = styled.h3`
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #21243d;
+  margin-right: 20px;
+`;
+
 export const PostCategory = styled.h3`
   font-size: 20px;
   line-height: 29px;
@@ -46,7 +56,7 @@ export const PostCategory = styled.h3`
   color: #8695a4;
 `;
 
-export const PostText = styled.div`
+export const PostText = styled.p`
   font-size: 16px;
   line-height: 23px;
   font-weight: 400;

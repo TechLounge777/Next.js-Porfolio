@@ -7,6 +7,7 @@ import {
   PostTitle,
   PostData,
   PostDate,
+  Break,
   PostCategory,
   PostText,
   PostLineBreak,
@@ -21,7 +22,8 @@ const BlogPage = () => {
           <BlogPost>
             <PostTitle>UI Interactions of the week</PostTitle>
             <PostData>
-              <PostDate>12 Feb 2019 |</PostDate>
+              <PostDate>12 Feb 2019</PostDate>
+              <Break>|</Break>
               <PostCategory>Express,Handlebars</PostCategory>
             </PostData>
             <PostText>
@@ -36,7 +38,8 @@ const BlogPage = () => {
             <PostTitle>UI Interactions of the week</PostTitle>
             <PostData>
               <PostDate>12 Feb 2019</PostDate>
-              <PostCategory>| Express,Handlebars</PostCategory>
+              <Break>|</Break>
+              <PostCategory>Express,Handlebars</PostCategory>
             </PostData>
             <PostText>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -49,7 +52,8 @@ const BlogPage = () => {
             <PostTitle>UI Interactions of the week</PostTitle>
             <PostData>
               <PostDate>12 Feb 2019</PostDate>
-              <PostCategory> | Express,Handlebars</PostCategory>
+              <Break>|</Break>
+              <PostCategory>Express,Handlebars</PostCategory>
             </PostData>
             <PostText>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -62,7 +66,8 @@ const BlogPage = () => {
             <PostTitle>UI Interactions of the week</PostTitle>
             <PostData>
               <PostDate>12 Feb 2019</PostDate>
-              <PostCategory> | Express,Handlebars</PostCategory>
+              <Break>|</Break>
+              <PostCategory>Express,Handlebars</PostCategory>
             </PostData>
             <PostText>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
