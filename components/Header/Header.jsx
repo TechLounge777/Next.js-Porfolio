@@ -18,15 +18,21 @@ const Header = () => {
           </StyledLink>
         </LogoWrapper>
         <Nav>
-          <StyledLink href="/works">
-            <a>Works</a>
-          </StyledLink>
-          <StyledLink href="/blog">
-            <a>Blog</a>
-          </StyledLink>
-          <StyledLink href="/contact">
-            <a>Contact</a>
-          </StyledLink>
+          <li>
+            <StyledLink href="/works">
+              <a>Works</a>
+            </StyledLink>
+          </li>
+          <li>
+            <StyledLink href="/blog">
+              <a>Blog</a>
+            </StyledLink>
+          </li>
+          <li>
+            <StyledLink href="/contact">
+              <a>Contact</a>
+            </StyledLink>
+          </li>
         </Nav>
       </HeaderWrapper>
     </>

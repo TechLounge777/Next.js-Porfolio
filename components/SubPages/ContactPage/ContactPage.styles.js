@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const ContactPageWrapper = styled.div``;
+export const ContactPageWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 export const ContactHeader = styled.div``;
 export const ContactTitle = styled.div``;
 export const ContactData = styled.div``;
