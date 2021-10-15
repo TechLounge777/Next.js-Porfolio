@@ -4,6 +4,7 @@ export const BlogPageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 106px;
 `;
 export const PostsList = styled.div`
   max-width: 682px;
@@ -17,7 +18,6 @@ export const BlogHeader = styled.h1`
   font-size: 44px;
   line-height: 60px;
   font-weight: 700;
-  margin-top: 106px;
   margin-bottom: 55px;
 `;
 export const BlogPost = styled.div``;

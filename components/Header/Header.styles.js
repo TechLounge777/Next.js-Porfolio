@@ -15,7 +15,7 @@ export const LogoWrapper = styled.div`
   margin-left: 140px;
 `;
 
-export const Nav = styled.div`
+export const Nav = styled.ul`
   display: flex;
   justify-content: flex-end;
 `;
@@ -25,7 +25,7 @@ export const StyledLink = styled.a`
   margin-top: 27px;
   margin-left: 33px;
   font-size: 20px;
-
+  color: ${(props) => (props.href === props.pathname ? "#FF6464" : "#21243D")};
   &:hover {
     cursor: pointer;
     transition: all 0.2s ease-in-out;

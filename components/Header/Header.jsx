@@ -1,14 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/dist/client/router";
+import { useState } from "react";
 import { HeaderWrapper, Nav, LogoWrapper, StyledLink } from "./Header.styles";
 
 const Header = () => {
+  const router = useRouter();
+  const [pathName, setPathName] = useState(router.pathname);
+
+  const newPathName = () => {
+    setPathName(router.pathname);
+  };
+
   return (
     <>
       <HeaderWrapper>
         <LogoWrapper>
-          <StyledLink href="/">
+          <StyledLink href="/" passHref>
             <Image
               src="/logoipsum.svg"
               width="132px"
@@ -19,17 +28,21 @@ const Header = () => {
         </LogoWrapper>
         <Nav>
           <li>
-            <StyledLink href="/works">
+            <StyledLink href="/works" onClick={newPathName} pathname={pathName}>
               <a>Works</a>
             </StyledLink>
           </li>
           <li>
-            <StyledLink href="/blog">
+            <StyledLink href="/blog" onClick={newPathName} pathname={pathName}>
               <a>Blog</a>
             </StyledLink>
           </li>
           <li>
-            <StyledLink href="/contact">
+            <StyledLink
+              href="/contact"
+              onClick={newPathName}
+              pathname={pathName}
+            >
               <a>Contact</a>
             </StyledLink>
           </li>

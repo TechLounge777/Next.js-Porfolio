@@ -7,12 +7,15 @@ export const WorksPageWrapper = styled.div`
   // flex-wrap: wrap;
   padding-left: 148px;
   padding-right: 148px;
+  margin-top: 90px;
 `;
 
 export const WorksPageHeader = styled.h1`
-  font-size: 22px;
+  font-size: 44px;
+  font-weight: 900;
   line-height: 60px;
   color: #21243d;
+  margin-bottom: 25px;
 `;
 
 export const WorksPageList = styled.div``;
@@ -28,16 +31,19 @@ export const WorkImage = styled.img`
 export const WorkInfo = styled.div`
   max-width: 594px;
 `;
-export const WorkTitle = styled.div`
+export const WorkTitle = styled.h1`
   font-size: 30px;
   line-height: 44px;
   color: #21243d;
 `;
 
-export const WorkData = styled.div`
+export const WorkData = styled.h2`
   font-size: 20px;
   line-height: 29px;
+  font-weight: 400;
   color: #8695a4;
+  margin-top: 16px;
+  margin-bottom: 19px;
 `;
 
 export const StyledButton = styled.button`
@@ -57,7 +63,7 @@ export const WorkDescription = styled.p`
 `;
 
 export const LineBreak = styled.hr`
-  margin-top: 15px;
-  margin-bottom: 31px;
+  margin-top: 47px;
+  margin-bottom: 43px;
   border: 1px solid #e0e0e0;
 `;

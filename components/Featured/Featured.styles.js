@@ -7,7 +7,6 @@ export const FeaturedWorksSectionWrapper = styled.div`
   // flex-wrap: wrap;
   padding-left: 148px;
   padding-right: 148px;
-  margin-bottom: 283px;
 `;
 
 export const FeaturedWorksHeader = styled.h1`

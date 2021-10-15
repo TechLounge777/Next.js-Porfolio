@@ -17,7 +17,7 @@ const WorksPage = () => {
   return (
     <WorksPageWrapper>
       <WorksPageList>
-        <WorksPageHeader>Works</WorksPageHeader>
+        <WorksPageHeader>Work</WorksPageHeader>
         <Work>
           <WorkImage src="/work1.svg" width={246} height={180} alt=" work" />
           <WorkInfo>
