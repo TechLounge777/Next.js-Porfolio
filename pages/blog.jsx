@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import BlogPage from "../components/SubPages/BlogPage";
+import BlogPage from "../components/SubPages/BlogPage/BlogPage";
 
 <Head>
   <title>Next.js Portfolio | Blog</title>
@@ -8,12 +8,12 @@ import BlogPage from "../components/SubPages/BlogPage";
   <link rel="icon" href="/favicon.ico" />
 </Head>;
 
-const blog = () => {
+const Blog = () => {
   return (
     <div>
-      <BlogPage />;
+      <BlogPage />
     </div>
   );
 };
 
-export default blog;
+export default Blog;

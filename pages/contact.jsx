@@ -1,4 +1,5 @@
 import React from "react";
+import ContactPage from "../components/SubPages/ContactPage/ContactPage";
 import Head from "next/head";
 
 <Head>
@@ -7,8 +8,12 @@ import Head from "next/head";
   <link rel="icon" href="/favicon.ico" />
 </Head>;
 
-const contact = () => {
-  return <div>Contact</div>;
+const Contact = () => {
+  return (
+    <div>
+      <ContactPage />
+    </div>
+  );
 };
 
-export default contact;
+export default Contact;

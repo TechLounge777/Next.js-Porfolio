@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import WorksPage from "../components/SubPages/WorksPage/WorksPage";
 
 <Head>
   <title>Next.js Portfolio | Works</title>
@@ -7,8 +8,12 @@ import Head from "next/head";
   <link rel="icon" href="/favicon.ico" />
 </Head>;
 
-const works = () => {
-  return <div>Works</div>;
+const Works = () => {
+  return (
+    <div>
+      <WorksPage />
+    </div>
+  );
 };
 
-export default works;
+export default Works;
