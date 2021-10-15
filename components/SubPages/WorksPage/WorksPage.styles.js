@@ -7,7 +7,6 @@ export const WorksPageWrapper = styled.div`
   // flex-wrap: wrap;
   padding-left: 148px;
   padding-right: 148px;
-  margin-bottom: 283px;
 `;
 
 export const WorksPageHeader = styled.h1`
@@ -42,8 +41,9 @@ export const WorkData = styled.div`
 `;
 
 export const StyledButton = styled.button`
+  height: 25px;
+  max-width: 62px;
   font-size: 18px;
-  line-height: 26px;
   color: #fff;
   background: #142850;
   border-radius: 16px;

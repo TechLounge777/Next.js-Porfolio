@@ -10,7 +10,8 @@ export const HeroSectionWrapper = styled.div`
 export const LeftSection = styled.div`
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
+  margin-top: 158px;
 `;
 
 export const HeroTitle = styled.div`
@@ -34,8 +35,9 @@ export const HeroCtaButton = styled.div`
   justify-content: center;
   text-align: center;
   max-width: 208px;
-  padding: 9px 21px 17px 20px;
+  padding: 13px 20px 13px 20px;
   font-size: 20px;
+  font-weight: 500;
   line-height: 29px;
   background: #ff6464;
   color: #fff;
