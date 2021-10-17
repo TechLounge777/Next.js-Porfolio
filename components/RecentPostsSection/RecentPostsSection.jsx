@@ -12,9 +12,9 @@ import {
   RightPost,
 } from "./RecentPostsSection.styles";
 
-const RecentPostsSection = () => {
+const RecentPostsSection = ({ posts }) => {
   return (
-    <div>
+    <>
       <RecentPostsSectionWrapper>
         <RecentPostsHeaderWrapper>
           <RecentPostsSectionTitle>Recent Posts</RecentPostsSectionTitle>
@@ -23,24 +23,22 @@ const RecentPostsSection = () => {
         <LeftPost>
           <PostTitle>Making a design system from scratch</PostTitle>
           <PostData>12 Feb 2020 | Design, Pattern</PostData>
-          <PostContent>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </PostContent>
+          {posts.slice(0, 1).map((post) => (
+            <PostContent key={post.id}>{post.body}</PostContent>
+          ))}
         </LeftPost>
 
         <RightPost>
           <PostTitle>Making a design system from scratch</PostTitle>
           <PostData>12 Feb 2020 | Figma, Icon Design</PostData>
           <PostContent>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            {posts.slice(1, 2).map((post) => (
+              <PostContent key={post.id}>{post.body}</PostContent>
+            ))}
           </PostContent>
         </RightPost>
       </RecentPostsSectionWrapper>
-    </div>
+    </>
   );
 };
 

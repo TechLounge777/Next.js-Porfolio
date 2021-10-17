@@ -5,6 +5,7 @@ export const ContactPageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
+  margin-bottom: 200px;
 `;
 
 export const ContactHeader = styled.h1`
@@ -27,6 +28,9 @@ export const ContactData = styled.h3`
   line-height: 26px;
   color: #21243d;
   margin-top: 60px;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ContactMobile = styled.h3`
@@ -44,6 +48,8 @@ export const ContactEmail = styled.h3`
 `;
 
 export const ContactSocials = styled.h3`
+  display: flex;
+  flex-direction: column;
   font-size: 18px;
   line-height: 26px;
   color: #21243d;

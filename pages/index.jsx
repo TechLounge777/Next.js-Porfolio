@@ -5,7 +5,7 @@ import HeroSection from "../components/HeroSection/HeroSection";
 import RecentPostsSection from "../components/RecentPostsSection/RecentPostsSection";
 import Featured from "../components/Featured/Featured";
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
     <div>
       <Head>
@@ -15,9 +15,20 @@ export default function Home() {
       </Head>
       <main>
         <HeroSection />
-        <RecentPostsSection />
+        <RecentPostsSection posts={posts} />
         <Featured />
       </main>
     </div>
   );
 }
+
+export const getStaticProps = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+  const data = await res.json();
+
+  return {
+    props: {
+      posts: data,
+    },
+  };
+};

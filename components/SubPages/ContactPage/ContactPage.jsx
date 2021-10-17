@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../../ContactForm/ContactForm";
 import {
   ContactPageWrapper,
   ContactHeader,
@@ -21,8 +22,8 @@ const ContactPage = () => {
           <ContactMobile>mobile: +36 858515757</ContactMobile>
           <ContactEmail>email: John123@gmail.com</ContactEmail>
           <ContactSocials>
-            <a>Linkedin</a>
-            <a>Github</a>
+            <a href="https://www.linkedin.com/">Linkedin</a>
+            <a href="https://github.com/vercel/next.js/">Github</a>
           </ContactSocials>
         </ContactData>
         <ContactText>
@@ -34,6 +35,7 @@ const ContactPage = () => {
           amet.
         </ContactText>
         <ContactLineBreak />
+        <ContactForm />
       </ContactPageWrapper>
     </div>
   );
