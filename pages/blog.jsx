@@ -8,12 +8,23 @@ import BlogPage from "../components/SubPages/BlogPage/BlogPage";
   <link rel="icon" href="/favicon.ico" />
 </Head>;
 
-const Blog = () => {
+const Blog = ({ posts }) => {
   return (
     <div>
-      <BlogPage />
+      <BlogPage posts={posts} />
     </div>
   );
+};
+
+export const getStaticProps = async () => {
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const data = await res.json();
+
+  return {
+    props: {
+      posts: data,
+    },
+  };
 };
 
 export default Blog;
