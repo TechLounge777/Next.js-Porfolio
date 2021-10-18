@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/dist/client/link";
 import {
   BlogPageWrapper,
   PostsList,
@@ -22,7 +23,11 @@ const BlogPage = ({ posts }) => {
           {posts.slice(0, 5).map((post) => (
             <>
               <BlogPost key={post.id}>
-                <PostTitle>UI Interactions of the week</PostTitle>
+                <PostTitle>
+                  <Link href={"/posts/" + post.id} key={post.id}>
+                    <a>UI Interactions of the week</a>
+                  </Link>
+                </PostTitle>
                 <PostData>
                   <PostDate>12 Feb 2019</PostDate>
                   <Break>|</Break>
