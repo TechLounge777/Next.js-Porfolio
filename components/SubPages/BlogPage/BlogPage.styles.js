@@ -20,12 +20,20 @@ export const BlogHeader = styled.h1`
   font-weight: 700;
   margin-bottom: 55px;
 `;
+
 export const BlogPost = styled.div``;
+
 export const PostTitle = styled.h2`
   color: #21243d;
   font-size: 30px;
   line-height: 44px;
   font-weight: 500;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+  &:hover {
+    color: #00a8cc;
+  }
 `;
 export const PostData = styled.div`
   margin-top: 2px;
@@ -61,6 +69,9 @@ export const PostText = styled.p`
   line-height: 23px;
   font-weight: 400;
   color: #21243d;
+  &:first-letter {
+    text-transform: uppercase;
+  }
 `;
 
 export const PostLineBreak = styled.hr`

@@ -25,7 +25,7 @@ const BlogPage = ({ posts }) => {
               <BlogPost key={post.id}>
                 <PostTitle>
                   <Link href={"/posts/" + post.id} key={post.id}>
-                    <a>UI Interactions of the week</a>
+                    <a>{post.title}</a>
                   </Link>
                 </PostTitle>
                 <PostData>
