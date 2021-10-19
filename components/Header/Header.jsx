@@ -29,12 +29,12 @@ const Header = () => {
         <Nav>
           <li>
             <StyledLink href="/works" onClick={newPathName} pathname={pathName}>
-              <a>Works</a>
+              Works
             </StyledLink>
           </li>
           <li>
             <StyledLink href="/blog" onClick={newPathName} pathname={pathName}>
-              <a>Blog</a>
+              Blog
             </StyledLink>
           </li>
           <li>
@@ -43,7 +43,7 @@ const Header = () => {
               onClick={newPathName}
               pathname={pathName}
             >
-              <a>Contact</a>
+              Contact
             </StyledLink>
           </li>
         </Nav>

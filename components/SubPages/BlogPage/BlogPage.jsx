@@ -22,10 +22,10 @@ const BlogPage = ({ posts }) => {
           <BlogHeader>Blog</BlogHeader>
           {posts.slice(0, 5).map((post) => (
             <>
-              <BlogPost key={post.id}>
+              <BlogPost>
                 <PostTitle>
-                  <Link href={"/posts/" + post.id} key={post.id}>
-                    <a>{post.title}</a>
+                  <Link href={`/posts/${post.id}`} key={post.id}>
+                    {post.title}
                   </Link>
                 </PostTitle>
                 <PostData>
