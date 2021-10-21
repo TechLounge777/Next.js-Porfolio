@@ -2,28 +2,48 @@ import React from "react";
 import {
   FormWrapper,
   Form,
-  FormGroup,
+  LabelBox,
+  InputBox,
+  TextBox,
   Label,
-  InputField,
+  SubmitButtonWrapper,
+  SubmitButton,
 } from "./ContactForm.styles";
 
 const ContactForm = () => {
   return (
     <FormWrapper>
-      <Form>
-        <FormGroup>
-          <Label htmlFor="name">Name</Label>
-          <InputField type="text" name="name" />
-        </FormGroup>
-        <FormGroup>
-          <Label htmlFor="email">Email</Label>
-          <InputField type="email" name="email" />
-        </FormGroup>
-        <FormGroup>
-          <Label htmlFor="message">Message</Label>
-          <InputField type="text" name="message" />
-        </FormGroup>
-        <InputField type="submit" />
+      <Form name="contact" method="POST" data-netlify="true">
+        <LabelBox>
+          <Label htmlFor="name">
+            Your Name:
+            <InputBox>
+              <input type="text" name="name" />
+            </InputBox>
+          </Label>
+        </LabelBox>
+        <LabelBox>
+          <Label htmlFor="email">
+            Your Email:
+            <InputBox>
+              {" "}
+              <input tyLabelBoxe="email" name="email" />
+            </InputBox>
+          </Label>
+        </LabelBox>
+
+        <LabelBox>
+          <Label htmlFor="message">
+            Message:
+            <TextBox>
+              {" "}
+              <textarea name="message"></textarea>
+            </TextBox>
+          </Label>
+        </LabelBox>
+        <SubmitButtonWrapper>
+          <SubmitButton type="submit">Send</SubmitButton>
+        </SubmitButtonWrapper>
       </Form>
     </FormWrapper>
   );

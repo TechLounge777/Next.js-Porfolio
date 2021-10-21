@@ -1,6 +1,7 @@
 import React from "react";
 import ContactPage from "../components/SubPages/ContactPage/ContactPage";
 import Head from "next/head";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 <Head>
   <title>Next.js Portfolio | Contact</title>
